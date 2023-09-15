@@ -1,0 +1,91 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scripts/HUD.gd" type="Script" id=1]
+
+[node name="HUD" type="CanvasLayer"]
+script = ExtResource( 1 )
+
+[node name="Buttons" type="HBoxContainer" parent="."]
+anchor_left = 0.023
+anchor_top = 0.04
+anchor_right = 0.023
+anchor_bottom = 0.04
+margin_left = 0.448
+margin_right = 736.448
+margin_bottom = 72.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Explosion_bullet" type="Button" parent="Buttons"]
+margin_right = 66.0
+margin_bottom = 72.0
+text = "Grenade"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Bad" type="Button" parent="Buttons"]
+margin_left = 70.0
+margin_right = 177.0
+margin_bottom = 72.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "Bad"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Good" type="Button" parent="Buttons"]
+margin_left = 181.0
+margin_right = 289.0
+margin_bottom = 72.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "Good"
+
+[node name="Obstacle" type="Button" parent="Buttons"]
+margin_left = 293.0
+margin_right = 400.0
+margin_bottom = 72.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "Obstacle"
+
+[node name="Cube" type="Button" parent="Buttons"]
+margin_left = 404.0
+margin_right = 512.0
+margin_bottom = 72.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "Cube"
+
+[node name="Rect_hor" type="Button" parent="Buttons"]
+margin_left = 516.0
+margin_right = 624.0
+margin_bottom = 72.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "Horisontal rect"
+
+[node name="Rect_vert" type="Button" parent="Buttons"]
+margin_left = 628.0
+margin_right = 736.0
+margin_bottom = 72.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "Vertical rect"
+
+[node name="Clear" type="Button" parent="."]
+anchor_left = 0.98
+anchor_top = 0.04
+anchor_right = 0.98
+anchor_bottom = 0.04
+margin_left = -83.52
+margin_top = -1.90735e-06
+margin_right = 0.47998
+margin_bottom = 64.0
+text = "Clear"
+__meta__ = {
+"_edit_use_anchors_": false
+}
